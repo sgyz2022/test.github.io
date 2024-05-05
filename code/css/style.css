@@ -3755,11 +3755,12 @@ nav.page-tabs .page-tabs-content {
     border: 1px solid #EBEBEB;
 }
 
-.table-bordered > thead > tr > th,
-.table-bordered > thead > tr > td {
-    background-color: #F5F5F6;
-    border-bottom-width: 1px;
-}
+    .table-bordered > thead > tr > th,
+    .table-bordered > thead > tr > td {
+        /* background-color: #F5F5F6;*/
+        background-color: #D9E1F4;
+        border-bottom-width: 1px;
+    }
 
 .table-bordered > thead > tr > th,
 .table-bordered > tbody > tr > th,
