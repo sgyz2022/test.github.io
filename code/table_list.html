@@ -50,6 +50,7 @@
                         <th>样本量</th>
                         <th>确认故障计数</th>
                         <th>争议故障计数</th>
+                        <th>在用期</th>
                         <th>备注</th>
                       </tr>
                     </thead>
@@ -434,6 +435,7 @@ document.body.appendChild(script);
             var cell10 = newRow.insertCell(10);
             var cell11 = newRow.insertCell(11);
             var cell12 = newRow.insertCell(12);
+            var cell13 = newRow.insertCell(13);
             cell0.textContent = item.a;
             cell1.textContent = item.b;
             cell2.textContent = item.c;
@@ -446,7 +448,8 @@ document.body.appendChild(script);
             cell9.textContent = item.j;
             cell10.textContent = item.k;
             cell11.textContent = item.l;
-            cell12.textContent = item.m;
+            cell12.textContent = item.z;
+            cell13.textContent = item.m;
           }
         });
         if (table.querySelector("tbody").childNodes.length == 0) {
